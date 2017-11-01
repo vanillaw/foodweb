@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>美食商城首页</title>
+	 <link rel="icon" href="images/head.ico">
+<!-- 主页css文档 -->
+	<link rel="stylesheet" href="css/index.css">
+<!-- 基础设置 -->
+	<link rel="stylesheet" href="css/base.css">
+<!-- bootstrap的引入 -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+ </head>
+ <body>
+<!-- 头部 -->
+		<header>
+			<div class="header-nav">
+				<div class="navigation">
+				<!-- logon  -->
+					<a href="index.html">
+						<img src="images/logo.png" title="美食餐厅">
+					</a>
+				<!-- 中间列表 -->
+					<ul class="nav-list">
+						<li></li>
+						<li>
+							<a href="index.html">网站首页</a>
+						</li>
+						<li>
+							<a href="aboutus.html">关于我们</a>
+						</li>
+						<li>
+							<a href="#foodlook">菜式欣赏</a>
+						</li>
+						<li>
+							<a href="#foodinfo">美食资讯</a>
+						</li>
+						<li>
+							<a href="#foodorder">在线预订</a>
+						</li>
+					</ul>
+				<!-- 语言选择 -->
+					<ul class="nav-language">
+						<li>
+							<a href="#" class="sear">
+								<img src="images/submit.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">中文</a>
+						</li>
+						<li>
+							<a href="#">En</a>
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-menu-hamburger ham" style="color:white;" ></span>
+						</li>
+					</ul>
+				</div>
+				<div class="search-box">
+            <form method="post" action="#" id="search-keyword">
+               <input type="text" name="search-keyword" placeholder="请输入您的内容">
+                <span>
+                </span>
+            </form>
+        </div>
+			</div>
+			<!-- 轮播图 -->
+			<div class="header-banner">
+				<div class="myCarousel">
+					<!-- 图片 -->
+					<div class="carousel-img" style="position:relative;left:-1440px;">
+						<!-- 						 
+							<div class="item">
+								<img src="images/banner1.jpg" alt="">
+							</div>	
+						-->
+					</div>
+						<!-- 小圆点 -->
+					<ul class="indicator-list">
+							<!--
+								<li></li>
+								<li></li>
+								<li></li>
+							-->
+					</ul>
+					<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+					<a href="javascript:;" id="next" class="arrow">&gt;</a>
+				</div>
+			</div>
+		</header>
+<!--我们提供  -->
+		<main class="we-offer">
+			<div class="main-content">
+				<div class="main-head">
+					<p>
+						<span>我们提供</span>
+					</p>
+				</div>
+				<div class="main-we-offer">
+					<ul>
+						<li>
+							<span>
+								<img src="images/lunch.png" alt="">
+							</span>
+							<h2>中餐</h2>
+							<p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。
+							</p>
+						</li>
+						<li>
+							<span>
+								<img src="images/dinner.png" alt="">
+							</span>
+							<h2>晚餐</h2>
+							<p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。
+							</p>
+						</li>
+						<li>
+							<span>
+								<img src="images/coffee.png" alt="">
+							</span>
+							<h2>甜品/咖啡</h2>
+							<p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-head">
+				<div>
+					<p>
+						<span id="foodlook">菜式欣赏</span>
+					</p>
+				</div>
+			</div>
+		</main>
+<!--菜式欣赏大图片  -->
+		<main>
+			<img src="images/mdbanner.jpg" alt="" style="width:100%">
+		</main>
+<!--  -->
+		<main>
+			<div class="main-body">
+				<p style="height:203px;">
+					<span>
+						每一种食物来源都经过我们的精挑细选，关于食材我们只选最天然、健康、优质的，只为一份对极致美味的追求，用心做好每一份菜，是我们不变的宗旨。
+					</span>
+				</p>
+				<ul class="main-body-img">
+				</ul>
+			</div>
+		</main>
+		<main>
+			<ul class="main-submenu">
+				<li>
+					<a href="#" index=1>午餐</a>
+				</li>
+				<li>
+					<a href="#" index=2>晚餐</a>
+				</li>
+				<li>
+					<a href="#" index=3>甜品</a>
+				</li>
+				<li>
+					<a href="#" index=4>饮料</a>
+				</li>
+			</ul>
+			<ul class="main-submenu-info">
+				
+			</ul>
+			<ul class="main-submenu-info" id="submenu-info-tab">
+					
+			</ul>
+			<a class="more">More</a>
+		</main>
+<!--美食资讯  -->
+		<main>
+			<div>
+				<div class="main-head">
+					<p>
+						<span id="foodinfo">美食资讯</span>
+					</p>
+				</div>
+			</div>
+			<ul class="main-submenu2">
+				<li>
+					<a href="#" myIndex = 1>最新新闻</a>
+				</li>
+				<li>
+					<a href="#" myIndex = 2>餐厅新闻</a>
+				</li>
+				<li>
+					<a href="#" myIndex = 3>美食热闻</a>
+				</li>
+				<li>
+					<a href="#" myIndex = 4>甜品站</a>
+				</li>
+			</ul>
+			<ul class="main-submenu-info2">
+
+			</ul>
+			<a href="deliciousmsg.html" class="more1">More</a>
+		</main>
+		<main>
+			<div class="main-head">
+				<p>
+					<span id="foodorder">在线预定</span>
+				</p>
+			</div>
+			<div class="online-order">
+				<form action="">
+					<div class="order-info">
+						<div>
+							<label for="username">用户名</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="userphone">电话号码</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="useremail">电子邮件</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="ordertime">时间</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="orderpeople">时间</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="orderdate">日期</label>
+							<input type="text" name="username">
+						</div>
+						<div>
+							<label for="ordermessage">留言</label>
+							<input type="text" name="username">
+						</div>
+					</div>
+				<a href="#" class="order">预定</a>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<ul>
+					<li>网站首页</li>
+					<li>关于我们</li>
+					<li>菜式欣赏</li>
+					<li>美食资讯</li>
+					<li>在线预订</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<span>电话:</span>
+						<span>0714-8868331</span>
+					</li>
+					<li>
+						<span>邮箱:</span>
+						<span>123@dayeyunalading.com</span>
+					</li>
+					<li>
+						<span>地址:</span>
+						<span>浙江省杭州市下沙江滨</span>
+					</li>
+				</ul>
+				<p></p>
+				<ul></ul>
+			</div>
+		</footer>
+ </body>
+
+<!-- 引入jquery文档 -->
+<script src="js/jquery-3.2.1.js"></script>
+ <script src="js/tabs.js"></script>
+<!-- 轮播 -->
+<script src="js/carousel.js"></script>
+<!-- 菜式欣赏 -->
+<script src="js/menustyle.js"></script>
+<script>	
+	var aButton = document.querySelectorAll(".more")[0];
+aButton.onclick= function(e){
+	e.preventDefault();
+	if(this.innerHTML=="More"){
+		$("#submenu-info-tab").css("height",100+"%");
+		this.textContent="收起";
+	}else{
+		$("#submenu-info-tab").css("height",0);
+		this.innerHTML="More";
+	}
+} 
+</script>
+</html>
